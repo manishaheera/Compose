@@ -1,0 +1,144 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.wrapper{
+    margin-top: 210px;
+    padding: 10px;
+    min-width:450px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 100vh;
+    /* transform: scale(.75); */
+    /* transform-origin: 0 0; */
+}
+
+.bears{
+    margin-bottom: -110px;
+    height: 380px;
+    margin-top: 200px;
+}
+
+h1{
+    margin-left: 40%;
+    margin-bottom: -505px;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Pacifico', cursive;
+    -webkit-text-stroke: 3px rgb(207, 171, 103);
+    filter: drop-shadow(0.5rem 0 0.95rem rgb(255, 255, 255));
+    color: white;
+}
+
+.login-reg-box{
+    background: linear-gradient(transparent,rgb(211, 173, 179),rgb(219, 160, 170), rgb(197, 176, 167),rgb(185, 171, 151), rgb(230, 198, 139));
+    border: 5px solid #351516;
+    padding: 10px;
+    min-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.login-reg{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.register{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.login{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+h3{
+    margin-top: 15px;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Cutive Mono', monospace;
+    justify-content: end;
+    display: flex;
+}
+
+h2{
+    font-size: 35px;
+    font-family: 'Pacifico', cursive;
+    filter: drop-shadow(0.5rem 0 0.95rem rgb(255, 255, 255));
+    color: white;
+    margin-bottom: 10px;
+}
+
+label{
+    font-size: larger;
+    width: 130px;
+    display: inline-block;
+}
+
+  /* h6 & p are for success and error messages */
+h6{
+    font-weight: bolder;
+    font-family: 'Cutive Mono', monospace;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.error-message{
+    font-family: 'Cutive Mono', monospace;
+    color: #8e1100;
+    font-weight: bolder;
+    font-size: smaller;
+    margin-bottom: 5px;
+}
+
+.form-field{
+    font-family: 'Cutive Mono', monospace;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.LR-input{
+    padding:5px;
+    font-family: 'Cutive Mono', monospace;
+    transition: 350ms;
+}
+
+.LR-input:hover{
+    filter: drop-shadow(0.25rem 0 0.75rem rgb(255, 255, 255));
+}
+
+.terms-policy{
+    font-size: 15px;
+}
+
+terms{
+    color: #7f4510;
+    text-decoration: underline;
+}
+
+.register-button, .login-button{
+    filter: drop-shadow(0.25rem 0 0.75rem rgb(226, 213, 169));
+    border-style: none;
+    background-color: #F9DE87;
+    font-family: 'Cutive Mono', monospace;
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+    transition: 350ms;
+}
+
+.register-button:hover, .login-button:hover{
+    background-color: #ffffff;
+    filter: drop-shadow(0.25rem 0 0.75rem rgb(243, 233, 206));
+}
+
+footer{
+    margin-top: 5px;
+    font-size: 10px;
+    text-align: center;
+}
